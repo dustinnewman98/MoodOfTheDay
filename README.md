@@ -6,7 +6,7 @@ Please download the latest version of Xcode (9.2) in order to have access to Swi
 
 1. Open Xcode and you should see a screen that looks like this:
 
-   ![gettingstarted1](/Users/dustinnewman/Desktop/gettingstarted1.png)
+   ![gettingstarted1](screenshots/gettingstarted1.png)
 
 2. Click on "Create a new Xcode project."
 
