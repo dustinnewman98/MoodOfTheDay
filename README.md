@@ -12,13 +12,13 @@ Please download the latest version of Xcode (9.2) in order to have access to Swi
 
 3. If not selected by default, click on "Single View App" and then click on "Next."
 
-   ![gettingstarted2](/Users/dustinnewman/Desktop/gettingstarted2.png)
+   ![gettingstarted2](screenshots/gettingstarted2.png)
 
 4. For "Product Name," put "MoodOfTheDay." You can change the title if you'd like and it won't affect the program, but this is the title we'll be using.
 
    Make sure you have "Use Core Data" **unchecked**. "Include Unit Tests" and "Include UI Tests" aren't going to be useful for this project, but you can leave them checked if you'd like.
 
-   ![gettingstarted3](/Users/dustinnewman/Desktop/gettingstarted3.png)
+   ![gettingstarted3](screenshots/gettingstarted3.png)
 
 ## Adding Our Arrays
 
@@ -28,27 +28,27 @@ Please download the latest version of Xcode (9.2) in order to have access to Swi
 
 2. Once you have that copied, go back to Xcode and create a new file.
 
-   ![gettingstarted4](/Users/dustinnewman/Desktop/gettingstarted4.png)
+   ![gettingstarted4](screenshots/gettingstarted4.png)
 
 3. Make sure "iOS" is selected at the top of the pop-up window and "Swift" is selected in the window and click "Next."
 
-   ![gettingstarted5](/Users/dustinnewman/Desktop/gettingstarted5.png)
+   ![gettingstarted5](screenshots/gettingstarted5.png)
 
 4. Name your new Swift file "Data" (the .swift extension will be added automatically, don't worry).
 
-   ![gettingstarted6](/Users/dustinnewman/Desktop/gettingstarted6.png)
+   ![gettingstarted6](screenshots/gettingstarted6.png)
 
 5. Drag the new Data.swift file under the folder "MoodOfTheDay". This isn't strictly necessary and will not affect functionality of the app, but it helps to keep things organized!
 
    At this point, your sidebar should look like this:
 
-   ![gettingstarted7](/Users/dustinnewman/Desktop/gettingstarted7.png)
+   ![gettingstarted7](screenshots/gettingstarted7.png)
 
 6. Time to copy-and-paste your data (or download directly from GitHub)! Don't worry if it pastes a little funny, there's just a lot of words to paste.
 
    Your Data.swift file (whether you copied or downloaded), should look like this:
 
-   ![gettingstarted8](/Users/dustinnewman/Desktop/gettingstarted8.png)
+   ![gettingstarted8](screenshots/gettingstarted8.png)
 
 ## The Interface Builder
 
@@ -58,27 +58,27 @@ The Interface Builder is Xcode's WYSIWYG (what you see is what you get) editor f
 
 1. To see the Interface Builder, click on "Main.storyboard" in the sidebar
 
-   ![interfacebuilder1](/Users/dustinnewman/Desktop/interfacebuilder1.png)
+   ![interfacebuilder1](screenshots/interfacebuilder1.png)
 
    A storyboard is a type of file that allows visual editing through the Interface Builder and each storyboard can have multiple screens if desired.
 
 2. You should see something like this:
 
-   ![interfacebuilder2](/Users/dustinnewman/Desktop/interfacebuilder2.png)
+   ![interfacebuilder2](screenshots/interfacebuilder2.png)
 
 3. Now it's time to finally start building our app!
 
    Notice the little window in the lower right. This is where you find all the things you want to add to each storyboard.
 
-   ![interfacebuilder3](/Users/dustinnewman/Desktop/interfacebuilder3.png)
+   ![interfacebuilder3](screenshots/interfacebuilder3.png)
 
 4. Scroll down until you see "Label".
 
-   ![interfacebuilder4](/Users/dustinnewman/Desktop/interfacebuilder4.png)
+   ![interfacebuilder4](screenshots/interfacebuilder4.png)
 
 5. Now drag in "Label" and "Button" so you have something like this:
 
-   ![interfacebuilder6](/Users/dustinnewman/Desktop/interfacebuilder6.png)
+   ![interfacebuilder6](screenshots/interfacebuilder6.png)
 
    Don't worry about where they're placed! We'll be setting up "constraints" right now to deal with that.
 
@@ -88,11 +88,11 @@ The Interface Builder is Xcode's WYSIWYG (what you see is what you get) editor f
 
 1. With your "Label" element selected, click on the small box icon in the bottom right of the Interface Builder's main window:
 
-   ![interfacebuilder7](/Users/dustinnewman/Desktop/interfacebuilder7.png)
+   ![interfacebuilder7](screenshots/interfacebuilder7.png)
 
 2. You should get a pop-up that says "Add New Constraints." Modify it so it matches this:
 
-   ![interfacebuilder8](/Users/dustinnewman/Desktop/interfacebuilder8.png)
+   ![interfacebuilder8](screenshots/interfacebuilder8.png)
 
    You'll need to modify the top constraint to 120, the left to 15, and the right to 15. All the others are unimportant.
 
@@ -100,15 +100,15 @@ The Interface Builder is Xcode's WYSIWYG (what you see is what you get) editor f
 
 3. Now, we're going to horizontally center our label. Navigate to the bar graph icon to the immediate left of the "add constraints" button we just used.
 
-   ![interfacebuilder9](/Users/dustinnewman/Desktop/interfacebuilder9.png)
+   ![interfacebuilder9](screenshots/interfacebuilder9.png)
 
 4. Add the "Horizontally in Container" constraint.
 
-   ![interfacebuilder10](/Users/dustinnewman/Desktop/interfacebuilder10.png)
+   ![interfacebuilder10](screenshots/interfacebuilder10.png)
 
 5. Add the following constraints to the "Button":
 
-   ![interfacebuilder11](/Users/dustinnewman/Desktop/interfacebuilder11.png)
+   ![interfacebuilder11](screenshots/interfacebuilder11.png)
 
    That is, add a bottom constraint of 180 and horizontally center the button. The order they're added in does not matter! 
 
@@ -118,31 +118,31 @@ This next section will take place in the "Attributes Inspector" of the right sid
 
 The icon looks like a pen tip and will the window it opens will look like this if you have the label selected.
 
-![attributes1](/Users/dustinnewman/Desktop/attributes1.png)
+![attributes1](screenshots/attributes1.png)
 
 1. Change the field that says "Label" (right under the dropdown menu where it says "Text: Plain") to say "The Mood Has Not Been Set!"
 
    You can put anything you like in the field, but you will see later why we have a message like this. But rest assured you can put anything there you would like without affecting anything.
 
-   ![attributes2](/Users/dustinnewman/Desktop/attributes2.png)
+   ![attributes2](screenshots/attributes2.png)
 
 2. Change the "Font" field to read "System 18.0" and have the "Style" set to Medium.
 
-   ![attributes3](/Users/dustinnewman/Desktop/attributes3.png)
+   ![attributes3](screenshots/attributes3.png)
 
 3. Change "Alignment" to be the center one and "Lines" to be 0.
 
-   ![attributes4](/Users/dustinnewman/Desktop/attributes4.png)
+   ![attributes4](screenshots/attributes4.png)
 
 4. So, right now, the "Attributes" pane for your label should match this:
 
-   ![attributes5](/Users/dustinnewman/Desktop/attributes5.png)
+   ![attributes5](screenshots/attributes5.png)
 
    Now, time for the button!
 
 5. The only thing for the button is to change the text to read "✨ Inspire Me ✨" (copy and paste this for easy emojis)
 
-   ![attributes6](/Users/dustinnewman/Desktop/attributes6.png)
+   ![attributes6](screenshots/attributes6.png)
 
    And that's (almost) all we have to do in the Interface Builder! Congrats!
 
@@ -152,19 +152,19 @@ So, we have a sweet storyboard set up, but no actual code to *do* anything, yet.
 
 For this next part, we're going to need a little tool called the "assistant editor." While still in Main.storyboard, click on the Venn diagram/intersecting circles icon near the upper right hand corner of Xcode.
 
-![connect1](/Users/dustinnewman/Desktop/connect1.png)
+![connect1](screenshots/connect1.png)
 
 which should bring up this very cluttered view:
 
-![connect2](/Users/dustinnewman/Desktop/connect2.png)
+![connect2](screenshots/connect2.png)
 
 To fix the clutter and make things a bit easier to work with, click the window pane-looking icon in the bottom toolbar that says "Hide Document Outline" when you hover over it.
 
-![connect3](/Users/dustinnewman/Desktop/connect3.png)
+![connect3](screenshots/connect3.png)
 
 And your new view should look like this now:
 
-![connect4](/Users/dustinnewman/Desktop/connect4.png)
+![connect4](screenshots/connect4.png)
 
 Much better! Now we're ready to connect our storyboard on the left pane to our actual code in the right pane.
 
@@ -172,21 +172,21 @@ Much better! Now we're ready to connect our storyboard on the left pane to our a
 
    Note: Make sure that you do **not** drag the outlet inside any function! Drag it inside the class "ViewController".
 
-   ![connect5](/Users/dustinnewman/Desktop/connect5.jpeg)
+   ![connect5](screenshots/connect5.jpeg)
 
 2. When you release, a pop-up should appear with fields like "Connection," "Name", etc. and it should look like this:
 
-   ![connect6](/Users/dustinnewman/Desktop/connect6.png)
+   ![connect6](screenshots/connect6.png)
 
 3. Change the "Connection" to "Action" and then set the name to "inspireAction" and the Type to "UIButton".
 
-   ![connect7](/Users/dustinnewman/Desktop/connect7.png)
+   ![connect7](screenshots/connect7.png)
 
 4. Do the same thing for the label in the Interface Builder, naming its outlet "moodLabel".
 
    Your code in the right pane should look like this now:
 
-   ![connect8](/Users/dustinnewman/Desktop/connect8.png)
+   ![connect8](screenshots/connect8.png)
 
 5. And, with that, we're completely done with the Interface Builder!
 
@@ -196,13 +196,13 @@ Now it's time to write the code that will actually make our app do something: gi
 
 1. Close the assistant editor by clicking the paragraph-looking icon next to the Venn diagram in the upper right hand toolbar.
 
-   ![code1](/Users/dustinnewman/Desktop/code1.png)
+   ![code1](screenshots/code1.png)
 
 2. Use your left sidebar to navigate to your "ViewController.swift" file.
 
-   ![code2](/Users/dustinnewman/Desktop/code2.png)
+   ![code2](screenshots/code2.png)
 
-3. To get a random food from our m_foods array in Data.swift, we're going to use a builtin Swift function called arc4random_uniform (along with a bunch of ugly conversion code). //NOTE Add footnote to explain/document all code //
+3. To get a random food from our m_foods array in Data.swift, we're going to use a builtin Swift function called arc4random_uniform (along with a bunch of ugly conversion code).
 
 4. Paste the following code into your inspireAction() function:
 
@@ -232,7 +232,7 @@ Now it's time to write the code that will actually make our app do something: gi
 
 9. Your inspireAction() function should now look like this:
 
-   ![code3](/Users/dustinnewman/Desktop/code3.png)
+   ![code3](screenshots/code3.png)
 
 10. Once last thing before we're done! Because of the way labels work in Swift, to deal with text overflow for the label ("moodLabel"), we need to add just one line of code inside the function viewDidLoad()
 
@@ -244,7 +244,7 @@ Now it's time to write the code that will actually make our app do something: gi
 
 12. Altogether now, your entire ViewController.swift file should look like this:
 
-    ![code4](/Users/dustinnewman/Desktop/code4.png)
+    ![code4](screenshots/code4.png)
 
 ## Building and Running
 
@@ -252,7 +252,7 @@ Now that you have your finished app, it's time to run it!
 
 Click on the "play" looking button in the upper left hand corner next to the "stop" looking button.
 
-![build1](/Users/dustinnewman/Desktop/build1.png)
+![build1](screenshots/build1.png)
 
 And that's it! This should run your very own app in the Simulator!
 
@@ -325,11 +325,11 @@ This is creating a class called "ViewController" which *subclasses* from UIViewC
 
 If you go back into the Interface Builder on Main.storyboard and click on the yellow circle on the top of the screen we've been developing on
 
-![doc1](/Users/dustinnewman/Desktop/doc1.png)
+![doc1](screenshots/doc1.png)
 
 and then navigate to the newspaper-looking icon on the right sidebar (the "Identity Inspector")
 
-![doc2](/Users/dustinnewman/Desktop/doc2.png)
+![doc2](screenshots/doc2.png)
 
 you can see that *this* is where we actually specify that our scene here is an object of our custom ViewController class. If you removed that specification, none of the code in ViewController.swift would apply to our app anymore.
 
