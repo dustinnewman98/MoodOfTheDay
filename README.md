@@ -385,7 +385,7 @@ First, `\(song)` is just Swift's way of denoting that "song" is actually a varia
 
 The other backslashes (in front of `\(song)`) are what's known as "escape characters." Escape characters are a way of telling the computer "I am about to use a symbol that you think is special, but I just want you to display it like a regular symbol." 
 
-Specifically, the backslashes are our way of saying "the string does not end at":
+Specifically, the backslashes are our way of saying the string does not end at:
 
 > The Mood of Today is Dancing To
 
