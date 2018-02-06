@@ -22,7 +22,7 @@ Please download the latest version of Xcode (9.2) in order to have access to Swi
 
 ## Adding Our Arrays
 
-1. You're going to need one file before we start, and that is the (very long) Data.swift file included in this GitHub repo at the top of this page. // NOTE ADD LINK ANYWAYS //
+1. You're going to need one file before we start, and that is the (very long) Data.swift file included in this GitHub repo at the top of this page. [Link here](https://raw.githubusercontent.com/dustinnewman98/MoodOfTheDay/master/Data.swift)
 
    You can either copy-and-paste the file from this repo (which is what I'm going to do so you can see how to create a file and add it to your project), copy-and-paste from this [pastebin](https://pastebin.com/QPP8Dt9H) (https://pastebin.com/QPP8Dt9H), or download the Data.swift file from this repo.
 
