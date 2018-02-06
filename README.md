@@ -1,3 +1,5 @@
+# HOTH IV - iOS Workshop
+
 ## Before You Start
 
 Please download the latest version of Xcode (9.2) in order to have access to Swift 4. 
